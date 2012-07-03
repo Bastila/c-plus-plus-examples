@@ -1,0 +1,18 @@
+GENERAL
+1. Copy the repo-folder to a directory with path which contains only English letters.
+2. To launch apps from "bin/Release" you might (or might not) need to install Microsoft Visual C++ 2010 Redistributables:
+http://www.microsoft.com/en-us/download/details.aspx?id=5555
+and DirectX End-User Runtimes:
+http://www.microsoft.com/en-us/download/details.aspx?id=8109
+3. Be shure to update videodrivers.
+
+ASCII SHADER
+1. Press 'U' to see the shader.
+2. Edit "NsTestbed.config" to choose another sample image from the "cnt" (aka content) folder.
+
+RENJU
+1. You will need DirectX SDK to compile the C++ project:
+http://www.microsoft.com/en-us/download/details.aspx?id=6812
+2. The compiled Prolog .dll and.lib files are provided. If you want to compile the Prolog source by yourself you will need the Visual Prolog IDE:
+http://www.visual-prolog.com/
+3. You may find the Renju game rules in "cnt/Other/renju_manual.pdf".

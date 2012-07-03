@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3rd party">
+      <UniqueIdentifier>{4a8a5f54-ea1f-4109-ab6e-e11f6ed059b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\SOIL">
+      <UniqueIdentifier>{9e43e5e7-2167-4bd9-8692-b43ef471a470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\TinyXML">
+      <UniqueIdentifier>{1077192c-3ccd-4c76-aa9d-2bad391337d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{329a04bb-a367-483b-a7c0-60005c90a022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin">
+      <UniqueIdentifier>{a63b8060-1821-490b-a5fb-a9c3ad42bc5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin\Debug">
+      <UniqueIdentifier>{f5a94d07-edc4-4894-ac6c-5ec55e83f93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin\Release">
+      <UniqueIdentifier>{1a8ec081-0e27-4a12-bd65-0cb19e7b1420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\GLEW">
+      <UniqueIdentifier>{cab52716-a860-4c0b-9b20-7a407b8f4530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\GLEW\GL">
+      <UniqueIdentifier>{19963f13-86df-4565-80a6-efdf1833aaf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{168576d0-25d3-4b59-8aa9-bb4051b3f2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Common">
+      <UniqueIdentifier>{b3813e59-029c-46a8-a19d-be532b450bbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Containers">
+      <UniqueIdentifier>{2e50116e-f72d-47fe-b429-e426eeaa363b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Math">
+      <UniqueIdentifier>{9011cbff-dfee-42c7-800b-2810bf3393b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Render">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Shared\ResourceManagement">
+      <UniqueIdentifier>{79841e08-2f99-4360-b641-0274dc98dd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Text">
+      <UniqueIdentifier>{3b5f9c6e-e443-432d-b4dd-3575d5390565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Utils">
+      <UniqueIdentifier>{f236c8dc-ddad-4b9e-aade-c2ac945dcd1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASCIIShader">
+      <UniqueIdentifier>{6d4fd77a-da79-4d73-a6bf-ca526158f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASCIIShader\Main">
+      <UniqueIdentifier>{8bd4b73d-eb06-4b7a-817b-85f9e781df99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\prj">
+      <UniqueIdentifier>{29f37212-7a2b-4b3b-9a19-08295558dd87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\image_DXT.c">
+      <Filter>3rd party\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\image_helper.c">
+      <Filter>3rd party\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\SOIL.c">
+      <Filter>3rd party\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\stb_image_aug.c">
+      <Filter>3rd party\SOIL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlerror.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlparser.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\xmltest.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\GLEW\glew.c">
+      <Filter>3rd party\GLEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\ASCIIShader\Main\NsASCIIShader.cpp">
+      <Filter>ASCIIShader\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Common\NsMouseState.cpp">
+      <Filter>Shared\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsScene.cpp">
+      <Filter>Shared\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsRendererOGL3.cpp">
+      <Filter>Shared\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsCameraController.cpp">
+      <Filter>Shared\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsCamera.cpp">
+      <Filter>Shared\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Text\NsString.cpp">
+      <Filter>Shared\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Utils\NsConsole.cpp">
+      <Filter>Shared\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\ResourceManagement\NsOGLResourceManager.cpp">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\image_DXT.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\image_helper.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\SOIL.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stb_image_aug.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stbi_DDS_aug.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stbi_DDS_aug_c.h">
+      <Filter>3rd party\SOIL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.h">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.h">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\glew.h">
+      <Filter>3rd party\GLEW\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\glxew.h">
+      <Filter>3rd party\GLEW\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\wglew.h">
+      <Filter>3rd party\GLEW\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsApplicationData.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMemory.hpp">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMouseState.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsSingleton.hpp">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocationStrategy.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocators.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsArray.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMath.hpp">
+      <Filter>Shared\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMatrix3.hpp">
+      <Filter>Shared\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMatrix4.hpp">
+      <Filter>Shared\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsVector3.hpp">
+      <Filter>Shared\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsVector4.hpp">
+      <Filter>Shared\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsScene.h">
+      <Filter>Shared\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsRendererOGL3.h">
+      <Filter>Shared\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsCameraController.h">
+      <Filter>Shared\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsCamera.h">
+      <Filter>Shared\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsInputSettings.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Text\NsString.h">
+      <Filter>Shared\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Utils\NsConsole.h">
+      <Filter>Shared\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsIncludes.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsOGLResourceManager.h">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsResourceManager.hpp">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\bin\Debug\NsTestbed.config">
+      <Filter>Config\bin\Debug</Filter>
+    </None>
+    <None Include="..\..\..\..\..\bin\Release\NsTestbed.config">
+      <Filter>Config\bin\Release</Filter>
+    </None>
+    <None Include="NsTestbed.config">
+      <Filter>Config\prj</Filter>
+    </None>
+  </ItemGroup>
+</Project>

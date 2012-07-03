@@ -1,0 +1,16 @@
+LIBRARY Renju
+
+CODE	  PRELOAD MOVEABLE DISCARDABLE
+DATA	  PRELOAD SINGLE
+
+HEAPSIZE  1024
+
+EXPORTS
+export_execute_renju_ai_is_black
+export_execute_renju_ai_is_white
+export_execute_renju_ai_is_black_debug
+export_execute_renju_ai_is_white_debug
+export_execute_renju_human_is_black
+export_execute_renju_check_the_game_end
+export_execute_test_export_int
+export_execute_test_export_list

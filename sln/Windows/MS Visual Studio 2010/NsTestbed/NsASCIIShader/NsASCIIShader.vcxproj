@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8E7CB3FF-DCC6-4640-A034-FFC9377D1203}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NsASCIIShader</RootNamespace>
+    <ProjectName>NsASCIIShader</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v90</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\..\..\..\..\bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\obj\$(ProjectName)\$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\..\..\..\bin\$(Configuration)\</OutDir>
+    <IntDir>..\..\..\..\..\obj\$(ProjectName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\GLEW\glew.c" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\image_DXT.c" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\image_helper.c" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\SOIL.c" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\SOIL\stb_image_aug.c" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlparser.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\xmltest.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\ASCIIShader\Main\NsASCIIShader.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Common\NsMouseState.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsCamera.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsCameraController.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsRendererOGL3.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Render\NsScene.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\ResourceManagement\NsOGLResourceManager.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Text\NsString.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\Shared\Utils\NsConsole.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\glew.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\glxew.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\GLEW\GL\wglew.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\image_DXT.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\image_helper.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\SOIL.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stbi_DDS_aug.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stbi_DDS_aug_c.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\SOIL\stb_image_aug.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.h" />
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsApplicationData.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsIncludes.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMemory.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMouseState.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsInputSettings.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsSingleton.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocationStrategy.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocators.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsArray.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMath.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMatrix3.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsMatrix4.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsVector3.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Math\NsVector4.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsCamera.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsCameraController.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsRendererOGL3.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Render\NsScene.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsOGLResourceManager.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsResourceManager.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Text\NsString.h" />
+    <ClInclude Include="..\..\..\..\..\src\Shared\Utils\NsConsole.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\bin\Debug\NsTestbed.config" />
+    <None Include="..\..\..\..\..\bin\Release\NsTestbed.config" />
+    <None Include="NsTestbed.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

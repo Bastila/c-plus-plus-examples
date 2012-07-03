@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{536e65cc-a427-46a0-8394-73213f72e075}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="3rd party">
+      <UniqueIdentifier>{2d3b16ba-da91-4ceb-a57f-a3dda79e3a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\DXUT">
+      <UniqueIdentifier>{ee9358cc-444d-4249-ba6e-56dad4859a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\DXUT\Core">
+      <UniqueIdentifier>{64ca8549-692c-4015-9356-9bd205802e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\DXUT\Optional">
+      <UniqueIdentifier>{c219d7c0-c345-4e4f-82d8-f0b22555a0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renju">
+      <UniqueIdentifier>{409bb9e6-4dc5-4c2f-867d-3652150597b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{0411b0f5-07a7-4822-855c-015e6d028cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Common">
+      <UniqueIdentifier>{0ba9c7c1-afdc-4d82-8bd7-6111fa0a4ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Containers">
+      <UniqueIdentifier>{2c32c15e-548b-4a88-a0c6-99496a307da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Text">
+      <UniqueIdentifier>{8ee1ecca-4c13-48ca-9464-e304942a658c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\Utils">
+      <UniqueIdentifier>{38883bbe-4786-4eb9-8135-1141cdd39a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renju\Main">
+      <UniqueIdentifier>{6e5cb960-47c2-4f5f-b77b-fdaf4170c661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renju\Game">
+      <UniqueIdentifier>{d38611f9-2fea-4562-aabc-e5313839c293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renju\Rendering">
+      <UniqueIdentifier>{f40ee2b7-12c4-45d3-b279-9ee381b167f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd party\TinyXML">
+      <UniqueIdentifier>{25d98a5d-9345-43c7-895e-d5decd058e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared\ResourceManagement">
+      <UniqueIdentifier>{8e1331a9-f7b0-40b8-82e5-d65821dd9474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{12f9137a-de8d-4e75-8686-02738b2865ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin">
+      <UniqueIdentifier>{e65846e9-aa69-4c8d-b8b4-6d73757e0a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin\Debug">
+      <UniqueIdentifier>{de934dcb-aec0-4ced-9a5a-7e8761015cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\bin\Release">
+      <UniqueIdentifier>{961bd2dd-24f0-48fa-aa8f-c1ee66fe61a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\prj">
+      <UniqueIdentifier>{2fe7c6d8-7e29-4414-9516-6fa46212002a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\bin\Debug\NsTestbed.config">
+      <Filter>Config\bin\Debug</Filter>
+    </None>
+    <None Include="..\..\..\..\..\bin\Release\NsTestbed.config">
+      <Filter>Config\bin\Release</Filter>
+    </None>
+    <None Include="NsTestbed.config">
+      <Filter>Config\prj</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NsRenju.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="NsRenju.manifest">
+      <Filter>Resource Files</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Core\DXUT.cpp">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Core\DXUTenum.cpp">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Core\DXUTmisc.cpp">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTgui.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTres.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTShapes.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\SDKmesh.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\DXUT\Optional\SDKmisc.cpp">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Common\NsMouseState.cpp">
+      <Filter>Shared\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Text\NsString.cpp">
+      <Filter>Shared\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\Utils\NsConsole.cpp">
+      <Filter>Shared\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Main\NsRenju.cpp">
+      <Filter>Renju\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Game\NsPrologInt.cpp">
+      <Filter>Renju\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Game\NsRenjuAI.cpp">
+      <Filter>Renju\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Game\NsRenjuArbitrator.cpp">
+      <Filter>Renju\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Game\NsRenjuGame.cpp">
+      <Filter>Renju\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Rendering\NsBoard.cpp">
+      <Filter>Renju\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Renju\Rendering\NsTexturedQuad.cpp">
+      <Filter>Renju\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlerror.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxmlparser.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\3rd party\TinyXML\xmltest.cpp">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\Shared\ResourceManagement\NsD3DResourceManager.cpp">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Core\dxut.h">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Core\DXUTenum.h">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Core\DXUTmisc.h">
+      <Filter>3rd party\DXUT\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTcamera.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTgui.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTLockFreePipe.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTres.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\DXUTShapes.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\SDKmesh.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\DXUT\Optional\SDKmisc.h">
+      <Filter>3rd party\DXUT\Optional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsApplicationData.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMemory.hpp">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsMouseState.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsInputSettings.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsSingleton.hpp">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocationStrategy.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsAllocators.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Containers\NsArray.hpp">
+      <Filter>Shared\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Text\NsString.h">
+      <Filter>Shared\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Utils\NsConsole.h">
+      <Filter>Shared\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Game\NsPrologInt.h">
+      <Filter>Renju\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Game\NsRenjuAI.h">
+      <Filter>Renju\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Game\NsRenjuArbitrator.h">
+      <Filter>Renju\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Game\NsRenjuGame.h">
+      <Filter>Renju\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Rendering\NsBoard.h">
+      <Filter>Renju\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Rendering\NsTexturedQuad.h">
+      <Filter>Renju\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinystr.h">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\3rd party\TinyXML\tinyxml.h">
+      <Filter>3rd party\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\Common\NsIncludes.h">
+      <Filter>Shared\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Renju\Game\NsRenjuIncludes.h">
+      <Filter>Renju\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsD3DResourceManager.h">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\Shared\ResourceManagement\NsResourceManager.hpp">
+      <Filter>Shared\ResourceManagement</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
